@@ -1,0 +1,309 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.new-line {
+  white-space: pre-line;
+  
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body{
+  background: #e6ebf1!important;
+}
+.btn-primary{
+  background-color: #336195!important;
+}
+.text-primary{
+  color:  #336195!important;
+}
+.btn_color{
+  background: #336195;
+  color: #fff;
+}
+/* our css start here */
+.dashboard_wrapper {
+  margin-top: 100px;
+  margin-left: 200px;
+  /* padding-left: 17rem; */
+}
+.user_dashboard_box.active{
+  background: linear-gradient(107deg, #00387A 0%, #64ABFF 100%);
+}
+.user_dashboard_box {
+  padding: 20px;
+  border-radius: 16px;
+border: 1px solid #EAECF0;
+background: #fff;
+/* Shadow/sm */
+box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.06), 0px 1px 3px 0px rgba(16, 24, 40, 0.10);
+display: flex;
+padding: 24px;
+flex-direction: column;
+align-items: flex-start;
+gap: 24px;
+flex: 1 0 0;
+margin-bottom: 20px;
+}
+.user_dashboard_box  h3{
+ color: #fff;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+}
+.user_box_title{
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+.user_box_title h3{
+color: #fff;
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: 44px; /* 122.222% */
+letter-spacing: -0.72px;
+}
+.user_box_title h3{
+color: #fff;
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: 44px; /* 122.222% */
+letter-spacing: -0.72px;
+}
+.user_box_title .user_box_descr{
+  color: #6CE9A6;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+}
+
+
+.user_dashboard_box .user_box_title .user_data_descrip{
+  margin-left: 10px;
+}
+.user_dashboard_box .user_box_title .user_data_descrip p{
+  color: #6CE9A6;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+  background-color: #013879!important;
+  color: #fff!important;
+}
+@import 'antd/dist/reset.css';
+@media (max-width:420px){
+  .all_tbl{
+    min-width: 700px!important;
+  }
+  .creat_tbl{
+    min-width: 1000px!important;
+  }
+  .dashboard_wrapper {
+    margin-top: 60px;
+    margin-left: 60px;
+    /* padding-left: 17rem; */
+  }
+}
+
+@media (min-width: 992px) {
+  .col-md-15 {
+      width:  20%!important;
+      float: left;
+  }
+}
+@media (min-width: 1200px) {
+  .col-lg-15 {
+      width: 20%!important;
+      float: left;
+  }
+}
+
+
+@media screen and (max-width: 992px) {
+  .column {
+    flex: 100% !important; /* !important so that it overrides the inline style because by default it has higher priority */
+  }
+}  
+@media only screen and (max-width: 767px) {
+  .dashboard_wrapper {
+    margin-top: 0px;
+    margin-left: 0px;
+    /* padding-left: 17rem; */
+  }
+}
+
+.wrapper { overflow-x: auto; }
+.wrapper table { white-space: nowrap; }
+.files input {
+  outline: 2px dashed #92b0b3;
+  outline-offset: 0px;
+  -webkit-transition: outline-offset .15s ease-in-out, background-color .15s linear;
+  transition: outline-offset .15s ease-in-out, background-color .15s linear;
+  padding: 20px 0px 85px 15%;
+  text-align: center !important;
+  margin: 0;
+  width: 100% !important;
+}
+.files input:focus{     outline: 2px dashed #92b0b3;  outline-offset: -10px;
+  -webkit-transition: outline-offset .15s ease-in-out, background-color .15s linear;
+  transition: outline-offset .15s ease-in-out, background-color .15s linear; border:1px solid #92b0b3;
+}
+.files{ position:relative}
+.files:after {  pointer-events: none;
+  position: absolute;
+  top: 60px;
+  left: 180px;
+  width: 90px;
+  right: 0;
+  height: 100px;
+  content: "";
+  background-image: url('/public/cloud-computing-2444290_1280.png');
+  display: block;
+  margin: 0 auto;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.color input{ background-color:#f1f1f1;}
+.files:before {
+  position: absolute;
+  bottom: 10px;
+  left: 0;  pointer-events: none;
+  width: 100%;
+  right: 0;
+  height: 57px;
+  content: " or drag it here. ";
+  display: block;
+  margin: 0 auto;
+  padding: 30px 130px 55px 13%;
+  color: #2ea591;
+  font-weight: 600;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+
+.files1 input {
+  outline: 1px dashed #92b0b3;
+  outline-offset: 0px;
+  -webkit-transition: outline-offset .15s ease-in-out, background-color .15s linear;
+  transition: outline-offset .15s ease-in-out, background-color .15s linear;
+  padding: 10px 0px 65px 5%;
+  text-align: center !important;
+  margin: 0;
+  width: 100% !important;
+}
+.files1 input:focus{     
+  outline: 1px dashed #92b0b3;  outline-offset: -10px;
+  -webkit-transition: outline-offset .15s ease-in-out, background-color .10s linear;
+  transition: outline-offset .15s ease-in-out, background-color .10s linear; border:1px solid #92b0b3;
+}
+.files1{ position:relative}
+.files1:after {  pointer-events: none;
+  position: absolute;
+  top: 19px;
+  left: 240px;
+  width: 40px;
+  right: 0;
+  height: 50px;
+  content: "";
+  background-image: url('/public/cloud-computing-2444290_1280.png');
+  display: block;
+  margin: 0 auto;
+  background-size: 40%;
+  background-repeat: no-repeat;
+}
+.color input{ background-color:#f1f1f1;}
+.files1:before {
+  position: absolute;
+  bottom: 10px;
+  left: 0;  pointer-events: none;
+  /* width: 50%; */
+  right: 0;
+  height: 20px;
+  content: " or drag it here. ";
+  display: block;
+  margin: 0 auto;
+  /* padding: 2px 0px 0px 0px; */
+  color: #2ea591;
+  font-weight: 100;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+/* Style the input container */
+.file-input-container {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+/* Style the file input button */
+.file-input-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0); /* For IE8 and earlier */
+  font-size: 16px; /* Set font size as needed */
+  height: 30px; /* Set height as needed */
+  width: 100px; /* Set width as needed */
+}
+
+.custom-input {
+  padding: 10px 30px; /* Adjust padding as needed */
+  border: 1px solid #ccc; /* Sample border */
+  border-radius: 5px; /* Rounded corners */
+  background-image: url('/public/Icon.png'); /* Replace 'your_image_url_here.jpg' with the URL of your image */
+  background-size: 20px; /* Adjust size of the background image */
+  background-position: 170px center; /* Adjust position of the background image */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+}
+
+/* 
+.form-select:invalid {
+  border-color: red; /* Add red border to indicate invalid 
+}
+
+.form-select:invalid + .invalid-feedback {
+  display: block; /* Display the message when invalid 
+  color: red; /* Add red color to the message 
+} */

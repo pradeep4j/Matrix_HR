@@ -1,0 +1,217 @@
+.mystyle{
+    display:none;
+  }
+  .changecolor{
+    background-color: rgb(41, 133, 212);
+  }
+  .not-active {
+    pointer-events: none;
+    cursor: default;
+  }
+  .fonts {
+    color: white;
+    background-color: rgb(41, 133, 212);
+    width: 400px;
+  }
+  .fontselibrary {
+    color: white;
+    background-color: rgb(41, 133, 212);
+    width: 900px;
+  }
+  .modal__close {
+    position: absolute;
+    top: 2%;
+    right:2%;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .modal__close_elibrary {
+    position: absolute;
+    top: 2%;
+    right:2%;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .bag-quantity {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    /*background: yellow;*/
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+    margin-left: 5px;
+  }
+  .landing {
+  
+    background-color: #b7cec9 ;
+      /*background: url("./landing.jpg") no-repeat center 80% / cover;*/
+      height: 150vh;
+  }
+  .bag-quantity1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 430px;
+    width: 209px;
+    border-radius: 8%;
+    background: yellow;
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+    margin-left: 5px;
+  }
+  .bag-quantity2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    /*border-radius: 50%;
+    background: yellow;*/
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+    margin-left: 5px;
+  }
+  .border {
+    border-color: 'red';
+  }
+  .landing {
+    display: flex;
+    position: relative;
+    background-color: #e7f1ef;
+      /* background: url("./landing.jpg"); */
+      height: 100vh;
+    margin: 0 0 0 0;
+  }
+  /* for the cart badge on Navbar css start */
+  #ex4 .p1[data-count]:after{
+    position:absolute;
+    right:25%;
+    top:6%;
+    width: 1em;
+    content: attr(data-count);
+    font-size:45%;
+    padding:.2em;
+    border-radius:50%;
+    border: 1px solid rgb(255,0,0,.85);
+    line-height:1em;
+    color: white;
+    background:rgba(255,0,0,.85);
+    text-align:center;
+    font-weight: bold;
+    min-width: 1.5em;
+  
+  }
+  /* for the notification badge on Navbar css end */
+  
+  .icon-button {
+    position: relative;
+    display: flex;
+    top: 17px;
+    align-items: center;
+    right: 100px;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    color: #333333;
+    background: #dddddd;
+    border: none;
+    outline: none;
+    border-radius: 10%;
+  }
+  .logout-button {
+    position: relative;
+    display: flex;
+    top: 17px;
+    align-items: center;
+    right: 40px;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    color: #000;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 10%;
+  }
+  .login-button {
+    position: relative;
+    display: flex;
+    top: 17px;
+    align-items: center;
+    right: 40px;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    color: #000;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 10%;
+  }
+  .icon-button:hover {
+    cursor: pointer;
+  }
+  
+  .icon-button:active {
+    background: #cccccc;
+  }
+  
+  .icon-button__badge {
+    position: absolute;
+    top: -8px;
+    right: -10px;
+    width: 20px;
+    height: 20px;
+    background: red;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  }
+  .boxfeatures{
+    border-radius: 16px;
+    border: 0px solid #EAECF0;
+    background: linear-gradient(107deg, #0275d8 0%, #64ABFF 100%);
+
+    /* Shadow/sm */
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.06), 0px 1px 3px 0px rgba(16, 24, 40, 0.10);
+  }
+  /*width*/
+/* ::-webkit-scrollbar {
+  width:0px;
+} */
+
+/*track*/
+::-webkit-scrollbar-track {
+  background:transparent;
+}
+.new-line {
+  white-space: pre-line;
+  
+}
+/*thumb*/
+::-webkit-scrollbar-thumb {
+  background:transparent;
+}
+.input-err {
+  border: 1px solid red !important; 
+ }
+ 
+ .error {
+   color: red;
+   font-size: 0.8rem;
+   margin-top: 0.2rem;
+   font-weight: 600;
+ }
+ 
+
+  
